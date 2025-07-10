@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PROPS = exports.URL = exports.TOKEN = exports.CUSTOM_FIELDS = void 0;
-require("dotenv");
+require("dotenv").config();
 exports.CUSTOM_FIELDS = [
     {
         id: "1",
@@ -21,4 +21,5 @@ exports.PROPS = {
     TOKEN: exports.TOKEN,
     URL: exports.URL,
 };
+console.log({ PROPS: exports.PROPS });
 //# sourceMappingURL=config.js.map

@@ -1,4 +1,3 @@
-import "dotenv";
 import { IChatRace } from "chatrace";
 export declare const CUSTOM_FIELDS: IChatRace["PROPS"]["CUSTOM_FIELDS"];
 export declare const TOKEN: IChatRace["PROPS"]["TOKEN"];

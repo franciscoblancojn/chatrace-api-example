@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PROPS = exports.URL = exports.TOKEN = exports.CUSTOM_FIELDS = void 0;
-require("dotenv").config();
+const tslib_1 = require("tslib");
+const dotenv_1 = tslib_1.__importDefault(require("dotenv"));
+dotenv_1.default.config();
 exports.CUSTOM_FIELDS = [
     {
         id: "610369",

@@ -1,5 +1,7 @@
-require("dotenv").config();
+import dotenv from "dotenv";
 import { IChatRace } from "chatrace";
+
+dotenv.config();
 
 export const CUSTOM_FIELDS: IChatRace["PROPS"]["CUSTOM_FIELDS"] = [
     {
@@ -23,4 +25,3 @@ export const PROPS: IChatRace["PROPS"] = {
     TOKEN,
     URL,
 };
-

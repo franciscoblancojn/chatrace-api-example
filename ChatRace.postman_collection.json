@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "f818fa55-bf58-4340-8275-5d50938eebb2",
+		"name": "ChatRace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10596157",
+		"_collection_link": "https://test99-9938.postman.co/workspace/test-Workspace~d36a6260-b551-4988-8bd7-16a1e0f53c27/collection/10596157-f818fa55-bf58-4340-8275-5d50938eebb2?action=share&source=collection_link&creator=10596157"
+	},
+	"item": [
+		{
+			"name": "Send Message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_id\": \"573003001122\",\n    \"sendTemplate\": \"templante-1\",\n    \"customFields\":{\n        \"productos\":\"1\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/send-message",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"send-message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"573003001121\",\n    \"first_name\": \"first_name\",\n    \"last_name\": \"last_name\",\n    \"phone\": \"+573003001122\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/create-user",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"create-user"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

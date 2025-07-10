@@ -3,7 +3,7 @@ import { PROPS } from "./config";
 import { cola } from "../cola";
 
 class MyChatRace extends ChatRace {
-    useCola: boolean = false;
+    useCola = false;
     async onRequest(data: { url: string } & RequestInit) {
         if (this.useCola) {
             cola.schedule(async () => {

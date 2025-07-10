@@ -1,4 +1,4 @@
-import 'dotenv'
+import "dotenv";
 import { IChatRace } from "chatrace";
 
 export const CUSTOM_FIELDS: IChatRace["PROPS"]["CUSTOM_FIELDS"] = [

@@ -3,14 +3,14 @@ import { IChatRace } from "chatrace";
 
 export const CUSTOM_FIELDS: IChatRace["PROPS"]["CUSTOM_FIELDS"] = [
     {
-        id: "1",
-        name: "custom_field_1",
-        type: "1",
+        id: "610369",
+        name: "productos",
+        type: "0",
     },
     {
-        id: "2",
-        name: "custom_field_2",
-        type: "1",
+        id: "857975",
+        name: "sendTemplate",
+        type: "0",
     },
 ];
 
@@ -24,4 +24,3 @@ export const PROPS: IChatRace["PROPS"] = {
     URL,
 };
 
-console.log({PROPS});

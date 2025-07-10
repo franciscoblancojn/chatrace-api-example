@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "echo 'esm'",
+    "build:cjs": "tsc --module commonjs --outDir cjs",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src '!**/*.stories.tsx' --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "flb": "npm run format && npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/franciscoblancojn/chatrace-api-example/issues"
   },
-  "homepage": "https://github.com/franciscoblancojn/chatrace-api-example#readme"
+  "homepage": "https://github.com/franciscoblancojn/chatrace-api-example#readme",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "chatrace": "^1.0.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
 }

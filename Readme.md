@@ -1,14 +1,14 @@
 # Configuracion de Chatrace
 
-1. **Whatsapp**, Para poder enviar mensajes desde Chatrace debes [conectar el canal de whatsapp](https://chat.aveonline.co/en/settings?acc=1115278) ![image.png](/.attachments/image-1e1da1bc-f3a6-4ce8-b476-15502d20f0e4.png)
+1. **Whatsapp**, Para poder enviar mensajes desde Chatrace debes [conectar el canal de whatsapp](https://panel.lucidbot.co//en/settings?acc=1115278) ![image.png](/.attachments/image-1e1da1bc-f3a6-4ce8-b476-15502d20f0e4.png)
 
-2. **Sincronizar plantillas de meta**, en casos necesario debes [sincronizar las plantillas](https://chat.aveonline.co/en/whatsapp?acc=1115278)  ![image.png](/.attachments/image-75ca00db-d08e-4477-861e-45bae80e89d3.png)
+2. **Sincronizar plantillas de meta**, en casos necesario debes [sincronizar las plantillas](https://panel.lucidbot.co//en/whatsapp?acc=1115278)  ![image.png](/.attachments/image-75ca00db-d08e-4477-861e-45bae80e89d3.png)
 
-3. **Configurar Campos personalizados**, debes [crear todos los campos](https://chat.aveonline.co/en/user-custom-fields?acc=1115278) necesarios que requieran tus plantillas de meta, y agregar un campo adicional llamado **sendTemplate** ![image.png](/.attachments/image-b76f366d-240c-44d9-a730-979155916b5f.png)
+3. **Configurar Campos personalizados**, debes [crear todos los campos](https://panel.lucidbot.co//en/user-custom-fields?acc=1115278) necesarios que requieran tus plantillas de meta, y agregar un campo adicional llamado **sendTemplate** ![image.png](/.attachments/image-b76f366d-240c-44d9-a730-979155916b5f.png)
 
-4. **Crear Flujo**, debes crear un [flujo](https://chat.aveonline.co/en/flows?acc=1115278) que crear un selector de la plantilla a enviar por medio del valor  **sendTemplate** ![image.png](/.attachments/image-c853faea-f9f8-48b0-a3ea-60cb284123c0.png) ![image.png](/.attachments/image-c957d66e-67b1-4e1b-9427-c6237661fa14.png)
+4. **Crear Flujo**, debes crear un [flujo](https://panel.lucidbot.co//en/flows?acc=1115278) que crear un selector de la plantilla a enviar por medio del valor  **sendTemplate** ![image.png](/.attachments/image-c853faea-f9f8-48b0-a3ea-60cb284123c0.png) ![image.png](/.attachments/image-c957d66e-67b1-4e1b-9427-c6237661fa14.png)
 
-5. **Crear Disparador**, debes que crear un [disparador](https://chat.aveonline.co/en/rules?acc=1115278) que ejecute el flujo creado en el paso 4 cuando el campo sendTemplate cambia ![image.png](/.attachments/image-effd411e-4155-4815-8b64-5fdba8fb860c.png) ![image.png](/.attachments/image-e6464975-a002-4447-afe9-0092dca03b0b.png)
+5. **Crear Disparador**, debes que crear un [disparador](https://panel.lucidbot.co//en/rules?acc=1115278) que ejecute el flujo creado en el paso 4 cuando el campo sendTemplate cambia ![image.png](/.attachments/image-effd411e-4155-4815-8b64-5fdba8fb860c.png) ![image.png](/.attachments/image-e6464975-a002-4447-afe9-0092dca03b0b.png)
 
 6. **Configurar token**, se debe generar un token de acceso api en las configuraciones ![image.png](/.attachments/image-39cbe8a8-b4d0-4649-9b29-7a3d81c83126.png)
 
